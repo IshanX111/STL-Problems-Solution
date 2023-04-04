@@ -29,11 +29,7 @@ int main()
             if(itr.second>1)
             {
                 cm++;
-                //cout<<"impossible"<<endl;
-            }
-            else
-            {
-                //cout<<"possible"<<endl;
+                break;
             }
         }
         if(cm!=0)
